@@ -1,0 +1,45 @@
+package model;
+
+public class DepMaster {
+    private String intDue;
+    private String intPaid;
+    private String depAccNo;
+    private LienEnMarking lienDetails;
+    
+    public LienEnMarking getLienDetails() {
+        return lienDetails;
+    }
+    
+    public void setLienDetails(LienEnMarking lienDetails) {
+        this.lienDetails = lienDetails;
+    }
+    
+    public String getIntDue() {
+        return intDue;
+    }
+    
+    public void setIntDue(String intDue) {
+        this.intDue = intDue;
+    }
+    
+    public String getIntPaid() {
+        return intPaid;
+    }
+    
+    public void setIntPaid(String intPaid) {
+        this.intPaid = intPaid;
+    }
+    
+    public String getDepAccNo() {
+        return depAccNo;
+    }
+    
+    public void setDepAccNo(String depAccNo) {
+        this.depAccNo = depAccNo;
+    }
+    
+    @Override
+    public String toString() {
+        return "Dep [intDue=" + intDue + ", intPaid=" + intPaid + ", depAccNo=" + depAccNo + "]";
+    }
+}

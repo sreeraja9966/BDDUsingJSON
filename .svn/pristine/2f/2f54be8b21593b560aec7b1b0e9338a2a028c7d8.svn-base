@@ -1,0 +1,264 @@
+package com.sysnik.selenium.entity;
+
+import java.io.Serializable;
+import java.math.BigInteger;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+import org.springframework.context.annotation.Scope;
+
+@Entity
+@Scope(value = "prototype")
+@Table(name = "INVENTORY_BOOKWISE_LOG")
+public class InventoryBookwiseLogEntity implements Serializable {
+    
+    private static final long serialVersionUID = 1029048981150029677L;
+    
+    @Id
+   
+    @Column(name = "ID")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "INVENTORY_BOOKWISE_LOG_SEQ_GEN")
+    @SequenceGenerator(name = "INVENTORY_BOOKWISE_LOG_SEQ_GEN", sequenceName = "INVENTORY_BOOKWISE_LOG_SEQ",
+            allocationSize = 1)
+    private BigInteger id;
+    
+    @Column(name = "BANK_CODE", length = 20, nullable = false)
+    private String bankCode;
+    
+    @Column(name = "ENTERED_BRANCH", length = 20, nullable = false)
+    private String enteredBranch;
+    
+    @Column(name = "INSTRUMENT_TYPE", length = 5, nullable = false)
+    private String instrumentType;
+    
+    @Column(name = "LOT_DATE", nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
+   
+    private Date lotDate;
+    
+    @Column(name = "SERIES", length = 20, nullable = true)
+    private String series;
+    
+    @Column(name = "BATCHNO", length = 20, nullable = false)
+    private BigInteger batchNo;
+    
+    @Column(name = "OWNER_BRANCH", length = 20, nullable = false)
+    private String ownerBranch;
+    
+    @Column(name = "NOOFLEAVES", length = 5, nullable = false)
+    private Integer noOfLeaves;
+    
+    @Column(name = "STARTNO", length = 5, nullable = false)
+    private Integer startNo;
+    
+    @Column(name = "ENDNO", length = 5, nullable = false)
+    private Integer endNo;
+    
+    @Column(name = "SUFFIX", length = 20, nullable = true)
+    private String suffix;
+    
+    @Column(name = "BOOKSTATUS", length = 1, nullable = false)
+    private String bookStatus;
+    
+    @Column(name = "ENTERED_BY", length = 20, nullable = false)
+    private String enteredBy;
+    
+    @Column(name = "AUTH_BY", length = 20, nullable = true)
+    private String authBy;
+    
+    @Column(name = "LOG_TYPE", length = 1, nullable = false)
+    private String logType;
+    
+    @Column(name = "REASON", length = 100, nullable = true)
+    private String reason;
+    
+    @Column(name = "REMARK", length = 100, nullable = true)
+    private String remark;
+    
+    @Column(name = "ACCEPTANCE_BY", length = 20, nullable = true)
+    private String acceptancedBy;
+    
+    @Column(name = "ACCEPTANCE_REJECT_REASON", length = 20, nullable = true)
+    private String acceptanceRejectReason;
+    
+    @Column(name = "IS_REVOKED", length = 1, nullable = true)
+    private String isRevoked;
+    
+    public BigInteger getId() {
+        return id;
+    }
+    
+    public void setId(BigInteger id) {
+        this.id = id;
+    }
+    
+    public String getBankCode() {
+        return bankCode;
+    }
+    
+    public void setBankCode(String bankCode) {
+        this.bankCode = bankCode;
+    }
+    
+    public String getEnteredBranch() {
+        return enteredBranch;
+    }
+    
+    public void setEnteredBranch(String enteredBranch) {
+        this.enteredBranch = enteredBranch;
+    }
+    
+    public String getInstrumentType() {
+        return instrumentType;
+    }
+    
+    public void setInstrumentType(String instrumentType) {
+        this.instrumentType = instrumentType;
+    }
+    
+    public Date getLotDate() {
+        return lotDate;
+    }
+    
+    public void setLotDate(Date lotDate) {
+        this.lotDate = lotDate;
+    }
+    
+    public String getSeries() {
+        return series;
+    }
+    
+    public void setSeries(String series) {
+        this.series = series;
+    }
+    
+    public BigInteger getBatchNo() {
+        return batchNo;
+    }
+    
+    public void setBatchNo(BigInteger batchNo) {
+        this.batchNo = batchNo;
+    }
+    
+    public String getOwnerBranch() {
+        return ownerBranch;
+    }
+    
+    public void setOwnerBranch(String ownerBranch) {
+        this.ownerBranch = ownerBranch;
+    }
+    
+    public Integer getNoOfLeaves() {
+        return noOfLeaves;
+    }
+    
+    public void setNoOfLeaves(Integer noOfLeaves) {
+        this.noOfLeaves = noOfLeaves;
+    }
+    
+    public Integer getStartNo() {
+        return startNo;
+    }
+    
+    public void setStartNo(Integer startNo) {
+        this.startNo = startNo;
+    }
+    
+    public Integer getEndNo() {
+        return endNo;
+    }
+    
+    public void setEndNo(Integer endNo) {
+        this.endNo = endNo;
+    }
+    
+    public String getSuffix() {
+        return suffix;
+    }
+    
+    public void setSuffix(String suffix) {
+        this.suffix = suffix;
+    }
+    
+    public String getBookStatus() {
+        return bookStatus;
+    }
+    
+    public void setBookStatus(String bookStatus) {
+        this.bookStatus = bookStatus;
+    }
+    
+    public String getEnteredBy() {
+        return enteredBy;
+    }
+    
+    public void setEnteredBy(String enteredBy) {
+        this.enteredBy = enteredBy;
+    }
+    
+    public String getAuthBy() {
+        return authBy;
+    }
+    
+    public void setAuthBy(String authBy) {
+        this.authBy = authBy;
+    }
+    
+    public String getLogType() {
+        return logType;
+    }
+    
+    public void setLogType(String logType) {
+        this.logType = logType;
+    }
+    
+    public String getReason() {
+        return reason;
+    }
+    
+    public void setReason(String reason) {
+        this.reason = reason;
+    }
+    
+    public String getRemark() {
+        return remark;
+    }
+    
+    public void setRemark(String remark) {
+        this.remark = remark;
+    }
+    
+    public String getAcceptancedBy() {
+        return acceptancedBy;
+    }
+    
+    public void setAcceptancedBy(String acceptancedBy) {
+        this.acceptancedBy = acceptancedBy;
+    }
+    
+    public String getAcceptanceRejectReason() {
+        return acceptanceRejectReason;
+    }
+    
+    public void setAcceptanceRejectReason(String acceptanceRejectReason) {
+        this.acceptanceRejectReason = acceptanceRejectReason;
+    }
+    
+    public String getIsRevoked() {
+        return isRevoked;
+    }
+    
+    public void setIsRevoked(String isRevoked) {
+        this.isRevoked = isRevoked;
+    }
+    
+}

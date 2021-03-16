@@ -1,0 +1,15 @@
+#javax.persistence.jdbc.url=jdbc:sqlserver://172.16.0.38;databaseName=Shares_QA
+#javax.persistence.jdbc.user=ssa
+#javax.persistence.jdbc.password=Password@2121
+#typeofDb=sql
+
+
+#javax.persistence.jdbc.url=jdbc:sqlserver://172.16.0.135;databaseName=Automation
+#javax.persistence.jdbc.user=aa
+#javax.persistence.jdbc.password=Express@12345
+#typeofDb=sql
+
+javax.persistence.jdbc.url=jdbc:sqlserver://172.16.0.172;databaseName=SYS_CORE_TRUNK_QA
+javax.persistence.jdbc.user=sss
+javax.persistence.jdbc.password=System@12345678
+typeofDb=sql

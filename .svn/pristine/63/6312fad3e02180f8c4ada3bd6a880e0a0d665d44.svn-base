@@ -1,0 +1,17 @@
+{
+	"positiveFlow": [{
+		"customer": {
+			"custNo": 123456,
+			"custName": "Raja"
+		},
+		"accDetails": {
+			"accNo": 123456,
+			"availableBal": 1500
+		},
+		"depMaster": {
+			"intDue": 123,
+			"intPaid": 321
+		}
+
+	}]
+}

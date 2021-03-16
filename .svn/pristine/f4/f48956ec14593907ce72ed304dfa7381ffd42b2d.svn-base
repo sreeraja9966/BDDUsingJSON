@@ -1,0 +1,160 @@
+package com.sysnik.factory;
+
+import com.sysnik.selenium.fw.helper.AlertHelper;
+import com.sysnik.selenium.fw.helper.AssertionHelper;
+import com.sysnik.selenium.fw.helper.BrowserHelper;
+import com.sysnik.selenium.fw.helper.CacheHelper;
+import com.sysnik.selenium.fw.helper.CommonMethodsForVerifications;
+import com.sysnik.selenium.fw.helper.ConvertPropertyFileToMap;
+import com.sysnik.selenium.fw.helper.DataProviderHelper;
+import com.sysnik.selenium.fw.helper.DateHelper;
+import com.sysnik.selenium.fw.helper.DbHelper;
+import com.sysnik.selenium.fw.helper.DropDownHelper;
+import com.sysnik.selenium.fw.helper.EmailHelper;
+import com.sysnik.selenium.fw.helper.ExcelHelper;
+import com.sysnik.selenium.fw.helper.ExecutionOfQuiresBeforeAnyTestCase;
+import com.sysnik.selenium.fw.helper.FilloExcelDataGetter;
+import com.sysnik.selenium.fw.helper.FindElement;
+import com.sysnik.selenium.fw.helper.JavaScriptHelper;
+import com.sysnik.selenium.fw.helper.JsWaiter;
+import com.sysnik.selenium.fw.helper.ReadPropertyFile;
+import com.sysnik.selenium.fw.helper.ReportHelper;
+import com.sysnik.selenium.fw.helper.RepositoryHelper;
+import com.sysnik.selenium.fw.helper.RobotHelper;
+import com.sysnik.selenium.fw.helper.SeleniumHelper;
+import com.sysnik.selenium.fw.helper.WaitingHelper;
+import com.sysnik.selenium.fw.helper.WebTableHelper;
+import com.sysnik.selenium.stepConfiguraiton.FdAccountClosingStepDef;
+
+public class AutomationObjectFactory {
+    private static AlertHelper alertHelper = null;
+    private static AssertionHelper assertionHelper = null;
+    private static BrowserHelper browserHelper = null;
+    private static CacheHelper cacheHelper = null;
+    private static CommonMethodsForVerifications commonMethodsForVerifications = null;
+    private static ConvertPropertyFileToMap convertPropertyFileToMap = null;
+    private static DataProviderHelper dataProviderHelper = null;
+    private static DateHelper dateHelper = null;
+    private static DbHelper dbHelper = null;
+    private static DropDownHelper dropDownHelper = null;
+    private static EmailHelper emailHelper = null;
+    private static ExcelHelper excelHelper = null;
+    private static ExecutionOfQuiresBeforeAnyTestCase executionOfQuiresBeforeAnyTestCase = null;
+    private static FilloExcelDataGetter filloExcelDataGetter = null;
+    private static FindElement findElement = null;
+    private static JavaScriptHelper javaScriptHelper = null;
+    private static JsWaiter jsWaiter = null;
+    private static ReadPropertyFile readPropertyFile = null;
+    private static ReportHelper reportHelper = null;
+    private static RepositoryHelper repositoryHelper = null;
+    private static RobotHelper robotHelper = null;
+    private static SeleniumHelper seleniumHelper = null;
+    private static WaitingHelper waitingHelper = null;
+    private static WebTableHelper webTableHelper = null;
+    private static FdAccountClosingStepDef fdAccountClosingStepDef = null;
+    
+    public static AlertHelper getAlertHelperInstance() {
+        return alertHelper == null ? alertHelper = new AlertHelper() : alertHelper;
+    }
+    
+    public static AssertionHelper getAssertionHelperInstance() {
+        return assertionHelper == null ? assertionHelper = new AssertionHelper() : assertionHelper;
+    }
+    
+    public static BrowserHelper getBrowserHelperInstance() {
+        return browserHelper == null ? browserHelper = new BrowserHelper() : browserHelper;
+    }
+    
+    public static CacheHelper getCacheHelperInstance() {
+        return cacheHelper == null ? cacheHelper = new CacheHelper() : cacheHelper;
+    }
+    
+    public static CommonMethodsForVerifications getCommonMethodsForVerificationsInstance() {
+        return commonMethodsForVerifications == null
+                ? commonMethodsForVerifications = new CommonMethodsForVerifications() : commonMethodsForVerifications;
+    }
+    
+    public static ConvertPropertyFileToMap getConvertPropertyFileToMapInstance() {
+        return convertPropertyFileToMap == null ? convertPropertyFileToMap = new ConvertPropertyFileToMap()
+                : convertPropertyFileToMap;
+    }
+    
+    public static DataProviderHelper getDataProviderHelperInstance() {
+        return dataProviderHelper == null ? dataProviderHelper = new DataProviderHelper() : dataProviderHelper;
+    }
+    
+    public static DateHelper getDateHelperInstance() {
+        return dateHelper == null ? dateHelper = new DateHelper() : dateHelper;
+    }
+    
+    public static DbHelper getDbHelperInstance() {
+        return dbHelper == null ? dbHelper = new DbHelper() : dbHelper;
+    }
+    
+    public static DropDownHelper getDropDownHelperInstance() {
+        return dropDownHelper == null ? dropDownHelper = new DropDownHelper() : dropDownHelper;
+    }
+    
+    public static EmailHelper getEmailHelperInstance() {
+        return emailHelper == null ? emailHelper = new EmailHelper() : emailHelper;
+    }
+    
+    public static ExcelHelper getExcelHelperInstance() {
+        return excelHelper == null ? excelHelper = new ExcelHelper() : excelHelper;
+    }
+    
+    public static ExecutionOfQuiresBeforeAnyTestCase getExecutionOfQuiresBeforeAnyTestCaseInstance() {
+        return executionOfQuiresBeforeAnyTestCase == null
+                ? executionOfQuiresBeforeAnyTestCase = new ExecutionOfQuiresBeforeAnyTestCase()
+                : executionOfQuiresBeforeAnyTestCase;
+    }
+    
+    public static FilloExcelDataGetter getFilloExcelDataGetterInstance() {
+        return filloExcelDataGetter == null ? filloExcelDataGetter = new FilloExcelDataGetter() : filloExcelDataGetter;
+    }
+    
+    public static FindElement getFindElementInstance() {
+        return findElement == null ? findElement = new FindElement() : findElement;
+    }
+    
+    public static JavaScriptHelper getJavaScriptHelperInstance() {
+        return javaScriptHelper == null ? javaScriptHelper = new JavaScriptHelper() : javaScriptHelper;
+    }
+    
+    public static JsWaiter getJsWaiterInstance() {
+        return jsWaiter == null ? jsWaiter = new JsWaiter() : jsWaiter;
+    }
+    
+    public static ReadPropertyFile getReadPropertyFileInstance() {
+        return readPropertyFile == null ? readPropertyFile = new ReadPropertyFile() : readPropertyFile;
+    }
+    
+    public static ReportHelper getReportHelperInstance() {
+        return reportHelper == null ? reportHelper = new ReportHelper() : reportHelper;
+    }
+    
+    public static RepositoryHelper getRepositoryHelperInstance() {
+        return repositoryHelper == null ? repositoryHelper = new RepositoryHelper() : repositoryHelper;
+    }
+    
+    public static RobotHelper getRobotHelperInstance() {
+        return robotHelper == null ? robotHelper = new RobotHelper() : robotHelper;
+    }
+    
+    public static SeleniumHelper getSeleniumHelperInstance() {
+        return seleniumHelper == null ? seleniumHelper = new SeleniumHelper() : seleniumHelper;
+    }
+    
+    public static WaitingHelper getWaitingHelperInstance() {
+        return waitingHelper == null ? waitingHelper = new WaitingHelper() : waitingHelper;
+    }
+    
+    public static WebTableHelper getWebTableHelperInstance() {
+        return webTableHelper == null ? webTableHelper = new WebTableHelper() : webTableHelper;
+    }
+    
+    public static FdAccountClosingStepDef getFdAccountClosingStepDef() {
+        return fdAccountClosingStepDef == null ? fdAccountClosingStepDef = new FdAccountClosingStepDef()
+                : fdAccountClosingStepDef;
+    }
+}

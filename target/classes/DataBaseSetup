@@ -1,0 +1,4 @@
+dataBaseURL=jdbc:sqlserver://172.16.0.135;databaseName=Shares_QA
+dataBaseUserID=qa
+dataBasePassWord=Express@1234
+typeofDb=sql

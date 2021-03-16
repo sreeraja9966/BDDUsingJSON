@@ -1,0 +1,8 @@
+ApplicationURL=http://172.16.0.172:81
+#ApplicationURL=http://172.16.0.135:92
+TomcatURL=http://172.16.0.172:8050
+#TomcatURL=http://172.16.0.135:8080
+LogInUser=1
+BankCode=101
+BranchCode=2101
+IBTBranchCode=2102

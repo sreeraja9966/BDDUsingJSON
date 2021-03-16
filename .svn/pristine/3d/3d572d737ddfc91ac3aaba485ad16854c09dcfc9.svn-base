@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite of suites" duration-ms="0" started-at="2020-08-18T08:51:12Z" finished-at="2020-08-18T08:51:12Z">
+    <groups>
+    </groups>
+  </suite> <!-- suite of suites -->
+  <suite name="setUp" duration-ms="3" started-at="2020-08-18T08:50:01Z" finished-at="2020-08-18T08:50:01Z">
+    <groups>
+    </groups>
+    <test name="setUp" duration-ms="3" started-at="2020-08-18T08:50:01Z" finished-at="2020-08-18T08:50:01Z">
+      <class name="com.sysnik.selenium.testCases.setUp.SuiteSetUp">
+        <test-method status="PASS" signature="setReport()[pri:0, instance:com.sysnik.selenium.testCases.setUp.SuiteSetUp@572db5ee]" name="setReport" is-config="true" duration-ms="26507" started-at="2020-08-18T14:19:34Z" finished-at="2020-08-18T14:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method status="PASS" signature="tearDownThings()[pri:0, instance:com.sysnik.selenium.testCases.setUp.SuiteSetUp@572db5ee]" name="tearDownThings" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:01Z" finished-at="2020-08-18T14:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownThings -->
+      </class> <!-- com.sysnik.selenium.testCases.setUp.SuiteSetUp -->
+    </test> <!-- setUp -->
+  </suite> <!-- setUp -->
+  <suite name="TearUp" duration-ms="0" started-at="2020-08-18T08:51:12Z" finished-at="2020-08-18T08:51:12Z">
+    <groups>
+    </groups>
+    <test name="TearUp" duration-ms="0" started-at="2020-08-18T08:51:12Z" finished-at="2020-08-18T08:51:12Z">
+      <class name="com.sysnik.selenium.testCases.setUp.TearUp">
+        <test-method status="PASS" signature="tearDownThings()[pri:0, instance:com.sysnik.selenium.testCases.setUp.TearUp@7ab2e018]" name="tearDownThings" duration-ms="0" started-at="2020-08-18T14:21:12Z" finished-at="2020-08-18T14:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownThings -->
+      </class> <!-- com.sysnik.selenium.testCases.setUp.TearUp -->
+    </test> <!-- TearUp -->
+  </suite> <!-- TearUp -->
+  <suite name="CalculatorTestCases" duration-ms="71498" started-at="2020-08-18T08:50:01Z" finished-at="2020-08-18T08:51:12Z">
+    <groups>
+    </groups>
+    <test name="TDCalculator" duration-ms="71498" started-at="2020-08-18T08:50:01Z" finished-at="2020-08-18T08:51:12Z">
+      <class name="com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="setUp" is-config="true" duration-ms="1284" started-at="2020-08-18T14:20:01Z" finished-at="2020-08-18T14:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="1" started-at="2020-08-18T14:20:02Z" finished-at="2020-08-18T14:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="MaturityAmountE2EFlow(java.lang.String)[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="MaturityAmountE2EFlow" duration-ms="10680" started-at="2020-08-18T14:20:02Z" finished-at="2020-08-18T14:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//simpleFdCalculationWithDiscounting//MaturityAmountE2EFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaturityAmountE2EFlow -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:13Z" finished-at="2020-08-18T14:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:13Z" finished-at="2020-08-18T14:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="InterestRateE2EFlow(java.lang.String)[pri:1, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="InterestRateE2EFlow" duration-ms="5554" started-at="2020-08-18T14:20:13Z" finished-at="2020-08-18T14:20:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//simpleFdCalculationWithDiscounting//InterestRateE2EFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InterestRateE2EFlow -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:18Z" finished-at="2020-08-18T14:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="InstallmentAmountE2EFlow(java.lang.String)[pri:2, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="InstallmentAmountE2EFlow" duration-ms="5531" started-at="2020-08-18T14:20:18Z" finished-at="2020-08-18T14:20:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//simpleFdCalculationWithDiscounting//InstallMentAmountE2eFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstallmentAmountE2EFlow -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:18Z" finished-at="2020-08-18T14:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:24Z" finished-at="2020-08-18T14:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="DepositPeriodE2EFlow(java.lang.String)[pri:3, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="DepositPeriodE2EFlow" duration-ms="5332" started-at="2020-08-18T14:20:24Z" finished-at="2020-08-18T14:20:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//simpleFdCalculationWithDiscounting//DepositPeriodE2EFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositPeriodE2EFlow -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:24Z" finished-at="2020-08-18T14:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:29Z" finished-at="2020-08-18T14:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:29Z" finished-at="2020-08-18T14:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="MaturityAmountE2EFlowWithOutDiscount(java.lang.String)[pri:4, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="MaturityAmountE2EFlowWithOutDiscount" duration-ms="5259" started-at="2020-08-18T14:20:29Z" finished-at="2020-08-18T14:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//simpleFdCalculationWithOutDiscounting//MaturityAmountE2EFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaturityAmountE2EFlowWithOutDiscount -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="1" started-at="2020-08-18T14:20:34Z" finished-at="2020-08-18T14:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="InterestRateE2EFlowWithOutDiscount(java.lang.String)[pri:5, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="InterestRateE2EFlowWithOutDiscount" duration-ms="5552" started-at="2020-08-18T14:20:34Z" finished-at="2020-08-18T14:20:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//simpleFdCalculationWithOutDiscounting//InterestRateE2EFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InterestRateE2EFlowWithOutDiscount -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:34Z" finished-at="2020-08-18T14:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:40Z" finished-at="2020-08-18T14:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:40Z" finished-at="2020-08-18T14:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="InstallMentAmountE2eFlowWithOutDiscount(java.lang.String)[pri:6, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="InstallMentAmountE2eFlowWithOutDiscount" duration-ms="5199" started-at="2020-08-18T14:20:40Z" finished-at="2020-08-18T14:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//simpleFdCalculationWithOutDiscounting//InstallMentAmountE2eFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstallMentAmountE2eFlowWithOutDiscount -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:45Z" finished-at="2020-08-18T14:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="DepositPeriodE2EFlowwithoutDiscount(java.lang.String)[pri:7, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="DepositPeriodE2EFlowwithoutDiscount" duration-ms="5366" started-at="2020-08-18T14:20:45Z" finished-at="2020-08-18T14:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//simpleFdCalculationWithOutDiscounting//DepositPeriodE2EFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositPeriodE2EFlowwithoutDiscount -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:45Z" finished-at="2020-08-18T14:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="MaturityAmountE2EFlowCompoundQuaterly(java.lang.String)[pri:8, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="MaturityAmountE2EFlowCompoundQuaterly" duration-ms="5561" started-at="2020-08-18T14:20:50Z" finished-at="2020-08-18T14:20:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//compoundFDCalculation//MaturityAmountE2EFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaturityAmountE2EFlowCompoundQuaterly -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:50Z" finished-at="2020-08-18T14:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:50Z" finished-at="2020-08-18T14:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:56Z" finished-at="2020-08-18T14:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:20:56Z" finished-at="2020-08-18T14:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="InterestRateE2EFlowCompoundQuaterly(java.lang.String)[pri:9, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="InterestRateE2EFlowCompoundQuaterly" duration-ms="5474" started-at="2020-08-18T14:20:56Z" finished-at="2020-08-18T14:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//compoundFDCalculation//InterestRateE2EFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InterestRateE2EFlowCompoundQuaterly -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:21:01Z" finished-at="2020-08-18T14:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:21:01Z" finished-at="2020-08-18T14:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="InstallMentAmountE2eCompoundQuaterly(java.lang.String)[pri:10, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="InstallMentAmountE2eCompoundQuaterly" duration-ms="5211" started-at="2020-08-18T14:21:01Z" finished-at="2020-08-18T14:21:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//compoundFDCalculation//InstallMentAmountE2eFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstallMentAmountE2eCompoundQuaterly -->
+        <test-method status="PASS" signature="clickMenu()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="clickMenu" is-config="true" duration-ms="0" started-at="2020-08-18T14:21:07Z" finished-at="2020-08-18T14:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenu -->
+        <test-method status="PASS" signature="DepositPeriodE2EFlowCompoundQuaterly(java.lang.String)[pri:11, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="DepositPeriodE2EFlowCompoundQuaterly" duration-ms="5272" started-at="2020-08-18T14:21:07Z" finished-at="2020-08-18T14:21:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//src//main//resources//PropertyFilesForTestCases//tdCalculator//compoundFDCalculation//DepositPeriodE2EFlow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepositPeriodE2EFlowCompoundQuaterly -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:21:07Z" finished-at="2020-08-18T14:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="closingChildBranch()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="closingChildBranch" is-config="true" duration-ms="0" started-at="2020-08-18T14:21:12Z" finished-at="2020-08-18T14:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingChildBranch -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases@d7c4fcb]" name="tearUp" is-config="true" duration-ms="208" started-at="2020-08-18T14:21:12Z" finished-at="2020-08-18T14:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- com.sysnik.selenium.testCases.tdCalculator.TdCalculatorTestCases -->
+    </test> <!-- TDCalculator -->
+  </suite> <!-- CalculatorTestCases -->
+</testng-results>

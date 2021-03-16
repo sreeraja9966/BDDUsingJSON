@@ -1,0 +1,13 @@
+StopChequePaymentRequestScreen_accNumber=//input[@id='accNo']
+StopChequePaymentRequestScreen_payeeName=//input[@id='payeeName']
+StopChequePaymentRequestScreen_startNumber=//input[@id='startNo']
+StopChequePaymentRequestScreen_endNumber=//input[@id='endNo']
+StopChequePaymentRequestScreen_instrumentDate=//input[@id='instrument_Date']
+StopChequePaymentRequestScreen_instrumentAmount=//input[@id='instrumentAmt']
+StopChequePaymentRequestScreen_stopReason=//select[@id='stopReson']
+StopChequePaymentRequestScreen_submitButton=//button[@id='submit']
+StopChequePaymentRequestScreen_clearButton=//input[@id='cancel']
+StopChequePaymentRequestScreen_modelRespose=//li//span[@id='AccountNumber_value']
+StopChequePaymentAuthScreen_authorizeButton=//button[contains(text(),'Authorize')]
+
+

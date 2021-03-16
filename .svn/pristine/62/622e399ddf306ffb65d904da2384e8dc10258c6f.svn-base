@@ -1,0 +1,2 @@
+FdClosureAuthScreen_accNumber=//select[@id='accNumber']
+FdClosureAuthScreen_Rejectbutton=//button[contains(text(),'Reject')]

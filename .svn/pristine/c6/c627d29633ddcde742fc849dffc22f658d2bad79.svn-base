@@ -1,0 +1,370 @@
+[
+	{
+		"scenario": "OtherThanDepositAccountInDepAccNoField",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210101100000816",
+				"lienDetails": {
+					"presentLienAmount": "0",
+					"actualLienAmount": "9000",
+					"lienAmount": "5000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"validationMessage": "Invalid Deposit Account."
+	},
+	{
+		"scenario": "InActiveDepAccountInDepAccNoField",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105100000269",
+				"lienDetails": {
+					"presentLienAmount": "0",
+					"actualLienAmount": "9000",
+					"lienAmount": "5000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"validationMessage": "Record Not Authorised."
+	},
+	{
+		"scenario": "DifferentCustomersForLoan&DepAccounts",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210106060000004",
+				"lienDetails": {
+					"presentLienAmount": "0",
+					"actualLienAmount": "9000",
+					"lienAmount": "5000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"validationMessage": "Invalid Deposit Account."
+	},
+	{
+		"scenario": "AlreadyMaturedDepositAccount",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105100000267",
+				"lienDetails": {
+					"presentLienAmount": "0",
+					"actualLienAmount": "9000",
+					"lienAmount": "5000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"validationMessage": "Account is Matured."
+	},
+	{
+		"scenario": "OtherThanLoanAccountInLoanAccNoField",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210105100000268"
+			}
+		],
+		"validationMessage": "Record not found in Loan Master."
+	},
+	{
+		"scenario": "InActiveLoanAccountInLoanAccNoField",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000258"
+			}
+		],
+		"validationMessage": "Account is Not Active."
+	},
+	{
+		"scenario": "InvalidLienAmount",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105100000268",
+				"lienDetails": {
+					"presentLienAmount": "0",
+					"actualLienAmount": "45000",
+					"lienAmount": "100000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"validationMessage": "Invalid Lien Amount"
+	},
+	{
+		"scenario": "LienMarkingEntryWithSingleFixedDepositaccount",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105100000268",
+				"lienDetails": {
+					"presentLienAmount": "0",
+					"actualLienAmount": "45000",
+					"lienAmount": "25000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Lien Noted Successfully."
+	},
+	{
+		"scenario": "LienMarkingEntryWithSingleRDAccount",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000259"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105930000103",
+				"lienDetails": {
+					"presentLienAmount": "0",
+					"actualLienAmount": "9000",
+					"lienAmount": "5000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Lien Noted Successfully."
+	},
+	{
+		"scenario": "LienNotingWithUnAuthorizedRecords",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105100000268",
+				"lienDetails": {
+					"presentLienAmount": "25000",
+					"actualLienAmount": "20000",
+					"lienAmount": "20000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Unauthorized lien exist, can't proceed for lien noting entry."
+	},
+	{
+		"scenario": "LienMarkingEntryWithMultipleDepositAccounts",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000260"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105930000104",
+				"lienDetails": {
+					"presentLienAmount": "0",
+					"actualLienAmount": "9000",
+					"lienAmount": "5000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			},
+			{
+				"depAccNo": "101210105100000270",
+				"lienDetails": {
+					"presentLienAmount": "0",
+					"actualLienAmount": "45000",
+					"lienAmount": "25000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Lien Noted Successfully."
+	},
+	{
+		"scenario": "LienNotingAuthForSingleFDLien",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105100000268",
+				"lienDetails": {
+					"presentLienAmount": "25000",
+					"lienAmount": "25000",
+					"status": "A",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Record Authorized successfully."
+	},
+	{
+		"scenario": "LienNotingAuthForSingleRDLien",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000259"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105930000103",
+				"lienDetails": {
+					"presentLienAmount": "5000",
+					"lienAmount": "5000",
+					"status": "A",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Record Authorized successfully."
+	},
+	{
+		"scenario": "LienNotingAuthForMultipleDepositLien",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000260"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105930000104",
+				"lienDetails": {
+					"presentLienAmount": "5000",
+					"lienAmount": "5000",
+					"status": "A",
+					"remarks": "Lien Entry"
+				}
+			},
+			{
+				"depAccNo": "101210105100000270",
+				"lienDetails": {
+					"presentLienAmount": "25000",
+					"lienAmount": "25000",
+					"status": "A",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Record Authorized successfully."
+	},
+	{
+		"scenario": "AddingLienOnExistingLienUsingFD&TLEntry",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105100000268",
+				"lienDetails": {
+					"presentLienAmount": "25000",
+					"actualLienAmount": "20000",
+					"lienAmount": "20000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Lien Noted Successfully."
+	},
+	{
+		"scenario": "AddingLienOnExistingLienUsingRD&TLEntry",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000259"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105930000103",
+				"lienDetails": {
+					"presentLienAmount": "5000",
+					"actualLienAmount": "4000",
+					"lienAmount": "4000",
+					"status": "E",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Lien Noted Successfully."
+	},
+	{
+		"scenario": "AddingLienOnExistingLienUsingFD&TLAuth",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000257"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105100000268",
+				"lienDetails": {
+					"presentLienAmount": "45000",
+					"lienAmount": "20000",
+					"status": "A",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Record Authorized successfully."
+	},
+	{
+		"scenario": "AddingLienOnExistingLienUsingRD&TLAuth",
+		"loanAccList": [
+			{
+				"loanAccNo": "101210104100000259"
+			}
+		],
+		"depAccNoList": [
+			{
+				"depAccNo": "101210105930000103",
+				"lienDetails": {
+					"presentLienAmount": "9000",
+					"lienAmount": "4000",
+					"status": "A",
+					"remarks": "Lien Entry"
+				}
+			}
+		],
+		"successMessage": "Record Authorized successfully."
+	}
+]

@@ -1,0 +1,15 @@
+InstrumentInventoryAuthorization_InstrType=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[3]
+InstrumentInventoryAuthorization_InventryBranchWise=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[4]
+InstrumentInventoryAuthorization_BatchNo=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[5]
+InstrumentInventoryAuthorization_QuantofBooks=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[6]
+InstrumentInventoryAuthorization_NoofInstrum=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[7]
+InstrumentInventoryAuthorization_Prefix=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[8]
+InstrumentInventoryAuthorization_Sufix=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[9]
+InstrumentInventoryAuthorization_StartNo=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[10]
+InstrumentInventoryAuthorization_EndNo=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[11]
+InstrumentInventoryAuthorization_Remarks=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[12]
+InstrumentInventoryAuthorization_CheckBox=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[13]/app-tblformcontrols/app-tblcheckbox/div/label/input[@id='selectCountryselected_cheque_book0']
+InstrumentInventoryAuthorization_AuthButton=//button[@id='submit']
+InstrumentInventoryAuthorization_RejectButton=//button[@id='reject']
+
+

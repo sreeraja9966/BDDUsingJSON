@@ -1,0 +1,17 @@
+com\sysnik\selenium\stepConfiguraiton\BankReconFileUploadstepDef.class
+com\sysnik\selenium\RunnerPackage\TestRunner.class
+com\sysnik\selenium\stepConfiguraiton\CommonDefnitions.class
+com\sysnik\selenium\stepConfiguraiton\BankReconciliationStepDef.class
+com\sysnik\selenium\stepConfiguraiton\CommonStepDefAtTableLevel.class
+com\sysnik\selenium\stepConfiguraiton\TellerDepositDefnition.class
+com\sysnik\selenium\stepConfiguraiton\CancelRemittanceInstrument.class
+com\sysnik\selenium\stepConfiguraiton\RemittanceInstrumentIssue.class
+com\sysnik\selenium\stepConfiguraiton\LoginSteps.class
+com\sysnik\selenium\stepConfiguraiton\OTS.class
+com\sysnik\selenium\stepConfiguraiton\CashDepositDefnition.class
+com\sysnik\selenium\stepConfiguraiton\InstrumentInventory.class
+com\sysnik\selenium\stepConfiguraiton\CashWithdrawalStepConfig.class
+com\sysnik\selenium\stepConfiguraiton\SavingsAccountSteps.class
+com\sysnik\selenium\stepConfiguraiton\MarkLastInventoryDefnitions.class
+com\sysnik\selenium\stepConfiguraiton\BankreconDateChange.class
+com\sysnik\selenium\stepConfiguraiton\Hooks.class

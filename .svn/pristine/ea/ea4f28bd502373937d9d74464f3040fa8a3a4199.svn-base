@@ -1,0 +1,15 @@
+CashWithdrawalAuthScreen_VoucherNo=//input[@id='voucherNumber']
+CashWithdrawalAuthScreen_AuthButton=//button[contains(text(),'Authorize')]
+CashWithdrawalAuthScreen_RejectButton=//button[contains(text(),'Reject')]
+CashWithdrawalAuthScreen_VoucherNoDropDown=//select[@id='voucherNumber']
+
+
+CashWithdrawalAuthScreen_BranchCode=//div[@id='cashWithdrawalAuth']/table/tbody/tr[1]/td[2]
+CashWithdrawalAuthScreen_AccNo=//div[@id='cashWithdrawalAuth']/table/tbody/tr[1]/td[3]
+CashWithdrawalAuthScreen_Name=//div[@id='cashWithdrawalAuth']/table/tbody/tr[1]/td[4]
+CashWithdrawalAuthScreen_InstrNo=//div[@id='cashWithdrawalAuth']/table/tbody/tr[1]/td[5]
+CashWithdrawalAuthScreen_InstrType=//div[@id='cashWithdrawalAuth']/table/tbody/tr[1]/td[6]
+CashWithdrawalAuthScreen_InstrDate=//div[@id='cashWithdrawalAuth']/table/tbody/tr[1]/td[7]
+CashWithdrawalAuthScreen_TransAmt=//div[@id='cashWithdrawalAuth']/table/tbody/tr[1]/td[8]
+CashWithdrawalAuthScreen_DrCr=//div[@id='cashWithdrawalAuth']/table/tbody/tr[1]/td[9]
+CashWithdrawalAuthScreen_Remarks=//div[@id='cashWithdrawalAuth']/table/tbody/tr[1]/td[10]

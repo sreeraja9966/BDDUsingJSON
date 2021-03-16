@@ -1,0 +1,4 @@
+Login_BankCode=//input[@id='bankCode']
+Login_userId=//input[@id='userId']
+Login_password=//input[@id='password']
+Login_loginButton=//input[@name='login']

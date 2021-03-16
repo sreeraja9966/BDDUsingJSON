@@ -1,0 +1,4 @@
+BankReconciliationDateMarking_Group=//select[@id='groupId']
+BankReconciliationDateMarking_ReconDate=//input[@id='reconoDate']
+BankReconciliationDateMarking_NewReconDate=//input[@id='newReconDate']
+BankReconciliationDateMarking_SubmitButton=//button[@id='submit']

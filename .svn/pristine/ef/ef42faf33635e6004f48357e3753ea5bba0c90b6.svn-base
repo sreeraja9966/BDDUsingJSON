@@ -1,0 +1,3 @@
+Input Branch CBS Date   Instruments No Trans ID Amount EnteredAcntDrCrIndicator CustomerBranchCode CustomerAccountNo TransactionDate TransactionTime ATMID Particulars
+004011       29/09/2018 6534           ATM101   4000   Cr                       005011             2010025485        2018/09/29      03:27           ADC04 ATMWDL     
+004012       29/09/2018 6534           ATM101   2000   Cr                       006011             2010035485        2018/09/29      03:27           ADC04 ATMWDL     

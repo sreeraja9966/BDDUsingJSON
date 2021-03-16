@@ -1,0 +1,162 @@
+[
+{
+"scenario":"Renewal With Account Wise 12M Using Cash",
+"cacheKey":"RenewalWithAccountWise12MUsingCash",
+"renewalAccCacheKey":"RenewalWithAccountWise12MUsingCashrenewalCacheForNew",
+"accDetails":{
+"accNo":"101210105550000063",
+"availableBal":"10000"
+},
+"depDetails":{
+"depAmount":"10000",
+"depPeriodInMnths":"12",
+"depPeriodInDays":"0",
+"ROI":"5.50",
+"matDate":"23/02/2020",
+"matAmount":"10547",
+"adtROI":"0.5",
+"ROIAfterMat":"3",
+"remaingIntAmt":"547",
+"afterMatint":"0",
+"intPaid":"0",
+"intProvision":"0",
+"intCap":"0",
+"cashIntPayable":"0",
+"excessIntReceivable":"0",
+"totalIntPaid":"547"
+
+},
+"tdsDetails":{
+"tdsDeducted":"0",
+"tdsAmount":"55",
+"tdsRecovery":"0",
+"tdsPayable":"0",
+"tdsRecoverable":"0"
+},
+"loanAccList": [
+			{
+				"loanAccNo": ""
+			}
+		],
+
+"renewalDetails":{
+"renewalProduct":"Fixed Deposit",
+"renewalAmount":"10000",
+"renewalWith":"old",
+"renewaDate":"23/02/2020",
+"renewalPeriodInMonths":"12",
+"renewalPeriodInDays":"0",
+"renewalROI":"5",
+"renewalAdtionalROI":"0.5",
+"renewalMatAmt":"10547",
+"renewalMatDate":"23/02/2021"
+},
+"totalPayableAmount":"10492",
+"payableAmount":"492",
+"modeOfTransferDetails":{
+"paymentMode":"cash",
+"transactionAmount":"492",
+"tokenNo":"1",
+"remarks":"Td Renewal By Cash"
+
+},
+"transHeader":{
+"parentVoucherTransAmount":"492",
+"childVoucherTransAmount":"10547"
+
+},
+
+"successMessag":"Successfully renew account."
+
+},
+{
+"scenario":"Renewal With Account Wise 12M Using Cash Auth",
+"cacheKey":"RenewalWithAccountWise12MUsingCash",
+"accDetails":{
+"accNo":"101210105550000063",
+"availableBal":"10000"
+},
+"depDetails":{
+"depAmount":"10000",
+"depPeriodInMnths":"12",
+"depPeriodInDays":"0",
+"ROI":"5.50",
+"matDate":"23/02/2020",
+"matAmount":"10547",
+"adtROI":"0.5",
+"ROIAfterMat":"3",
+"remaingIntAmt":"547",
+"afterMatint":"0",
+"intPaid":"0",
+"intProvision":"0",
+"intCap":"0",
+"cashIntPayable":"0",
+"excessIntReceivable":"0",
+"totalIntPaid":"547"
+
+},
+"tdsDetails":{
+"tdsDeducted":"0",
+"tdsAmount":"55",
+"tdsRecovery":"0",
+"tdsPayable":"0",
+"tdsRecoverable":"0"
+},
+"loanAccList": [
+			{
+				"loanAccNo": ""
+			}
+		],
+
+"renewalDetails":{
+"renewalProduct":"Fixed Deposit",
+"renewalAmount":"10000",
+"renewalWith":"old",
+"renewaDate":"23/02/2020",
+"renewalPeriodInMonths":"12",
+"renewalPeriodInDays":"0",
+"renewalROI":"5",
+"renewalAdtionalROI":"0.5",
+"renewalMatAmt":"10547",
+"renewalMatDate":"23/02/2021"
+},
+"totalPayableAmount":"10492",
+"payableAmount":"492",
+"modeOfTransferDetails":{
+"paymentMode":"cash",
+"transactionAmount":"492",
+"tokenNo":"1",
+"remarks":"Td Renewal By Cash"
+
+},
+"transHeader":{
+"parentVoucherTransAmount":"492",
+"childVoucherTransAmount":"10547"
+
+},
+"denomModel":{
+   "twoThousandFromDenom":"",
+    "fiveHundredFromDenom":"",
+    "twoHundredFromDenom":"",
+    "hundredFromDenom":"",
+    "fiftyFromDenom":"",
+    "twentyFromDenom":"",
+    "tenFromDenom":"",
+    "oneRupeeFromDenom":"",
+    "PaiseFromDenom":"",
+    "twoThousandToDenom":"",
+    "fiveHundredToDenom":"",
+    "twoHundredToDenom":"",
+    "hundredToDenom":"",
+    "fiftyToDenom":"",
+    "twentyToDenom":"",
+    "tenToDenom":"",
+    "oneRupeeToDenom":"492",
+    "PaiseToDenom":""
+
+},
+
+"successMessag":"Account Renewal Authorized successfully."
+
+}
+]

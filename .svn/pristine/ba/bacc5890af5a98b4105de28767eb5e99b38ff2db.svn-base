@@ -1,0 +1,12 @@
+MarkLostInventoryAuth_checkBox=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[11]/app-tblformcontrols/app-tblcheckbox/div/label/input[@id='selectCountryselected_cheque_book0']
+MarkLostInventoryAuth_AuthButton=//button[contains(text(),'Authorize')]
+MarkLostInventoryAuth_RejectButton=//button[contains(text(),'Reject')]
+
+MarkLostInventoryAuthorization_InstrType=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[3]
+MarkLostInventoryAuthorization_InventryBranchWise=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[4]
+MarkLostInventoryAuthorization_BatchNo=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[5]
+MarkLostInventoryAuthorization_Prefix=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[6]
+MarkLostInventoryAuthorization_Sufix=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[7]
+MarkLostInventoryAuthorization_StartNo=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[8]
+MarkLostInventoryAuthorization_EndNo=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[9]
+MarkLostInventoryAuthorization_Remarks=//div[@id='instrumentinventryauth1']/table/tbody/tr[1]/td[10]

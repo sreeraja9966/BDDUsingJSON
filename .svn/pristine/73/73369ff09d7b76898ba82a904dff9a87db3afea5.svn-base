@@ -1,0 +1,3 @@
+APBSAadharSeedingEntry_accNumber=//input[@id='accNumber']
+APBSAadharSeedingEntry_nationalId=//select[@id='nationalId']
+APBSAadharSeedingEntry_SubmitButton=//button[@id='submit']

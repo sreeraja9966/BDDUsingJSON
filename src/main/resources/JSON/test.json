@@ -1,0 +1,13 @@
+{   "dataSet": [
+    {
+      "searchRequest": "*]",
+      "expectedVal": 0
+    },
+    {
+      "searchRequest": "Tom",
+      "expectedVal": 1
+    },
+    {
+      "searchRequest": "1234",
+      "expectedVal": 0
+    }   ] }
